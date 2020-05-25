@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Asteroid</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/w3.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/font.css">
+	<style>
+   html, body, h1, h2, h3, h4, h5, h6 {
+   font-family: "Comic Sans MS", cursive, sans-serif;}
+	</style>
+		
+	</head>
+<body class="w3-mobile w3-black">
+	<header id="home" class="w3-container w3-black  w3-animate-top  w3-display-container" >
+		<div class="m2"><img class="w3-container w3-display-left w3-left" style="max-height:100%; max-width=100%; display:block; " src="icon/i.gif" </div>
+			<h1 class="w3-center w3-hover-text-indigo w3-text-white w3-animate-top rollIn  w3-serif"><strong><i>Rn-Galaxy</i></strong><h1>
+			<h6 class="w3-container w3-text-white  w3-display-topright" id="time">Time:</h6>
+			<h6 class="w3-container w3-text-white  w3-display-bottomright" id="date" ></h6>
+	</header>
+<div class="w3-row-padding w3-container  w3-center w3-auto">
+	<div class=" w3-container  w3-padding-32">
+		<div><a class=" w3-round-xlarge w3-animate-left rotateOut w3-border w3-border-white w3-hover-border-deep-purple w3-hover-black w3-deep-purple w3-text-white w3-margin-right w3-section w3-col s3 m2 l2 w3-btn w3-mobile "  href="#home"><b>Home</b></a></div>
+		<div><a class=" w3-round-xlarge w3-animate-left rotateOut w3-border w3-border-white w3-hover-border-deep-purple w3-hover-black w3-deep-purple w3-text-white w3-margin-right w3-section w3-col s3 m2 l2 w3-btn w3-mobile "  href="#news"><b>News</b></a></div>
+		<div><a class=" w3-round-xlarge w3-animate-left rotateOut w3-border w3-border-white w3-hover-border-indigo w3-hover-black w3-deep-purple w3-text-white w3-margin-right w3-section w3-col s3 m2 l2 w3-btn w3-mobile "  href="#cate"><b>Categories</b></a></div>
+		<div><a class=" w3-round-xlarge w3-animate-left rotateOut w3-border w3-border-white w3-hover-border-indigo w3-hover-black w3-deep-purple w3-text-white w3-margin-right w3-section w3-col s3 m2 l2 w3-btn w3-mobile "  href="#about"><b>About</b></a></div>
+		<div><a class=" w3-round-xlarge w3-animate-left rotateOut w3-border w3-border-white w3-hover-border-indigo w3-hover-black w3-deep-purple w3-text-white w3-margin-right w3-section w3-col s3 m2 l2 w3-btn w3-mobile "  href="#contact"><b>Contact</b></a></div>
+	</div>											 
+</div>
+	<div class="w3-section"><audio style="display:none" src="mp4/a.mp3"controls  autoplay  preload ="auto"><source media="(min-width: 650px)" srcset="mp4/a.mp3"></audio></div><audio style="display:none" src="mp4/a.webm"controls autoplay loop preload ="auto"></audio></div><div><video class="w3-image w3-block w3-mobile" src="mp4/v.mp4" autoplay muted loop preload="auto"></video></div>
+		<div class="w3-section w3-round-large w3-margin w3-container w3-card w3-border w3-hover-border-indigo">
+			<h1>What is an Asteroid ?</h1>
+				<h3 class="w3-justify">Asteroids are small, rocky objects that orbit the Sun. Although asteroids orbit the Sun like planets, they are much smaller than planets.</h3>
+			</div>
+			<br>
+		<div class="w3-image w3-section w3-padding w3-mobile w3-center" >
+				<img class="w3-image w3-col m12 l12 w3-section w3-center" src="img/back.png" style="width:100% min-height:720">
+		</div>
+		<br>
+	<div  class=" w3-section w3-row  w3-card w3-auto  w3-mobile  ">
+		<h1 class="w3-center w3-section w3-padding">Are all Asteroids the same ?</h1>
+			<div class=" w3-container w3-card w3-col m12 l12 w3-auto w3-row-padding w3-mobile  w3-row">
+				<p class="w3-third w3-col l4 w3-card w3-panel w3-border w3-round-xlarge  w3-padding w3-padding-bottom w3-border-indigo  w3-justify w3-margin-right w3-large w3-mobile" style="width:30%">Asteroids are not all  round like planets. but They have been jagged and irregular shapes.</p>
+				<p class="w3-third w3-col l4 w3-card w3-panel w3-border w3-round-xlarge  w3-padding w3-border-indigo  w3-justify w3-margin-right w3-large w3-mobile" style="width:30%">Some asteroids are hundreds of miles in diameter, but many more are as small as pebbles.</p>
+				<p class="w3-third w3-col l4 w3-card w3-panel w3-border w3-round-xlarge  w3-padding w3-border-indigo  w3-justify w3-margin-right w3-large w3-mobile " style="letter-spacing:none; width:30%">Most asteroids are made of different kinds of rocks,but some have clays or metals.</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+	</div>
+	
+<!-- news -->
+<div id="news" class="w3-section  w3-container " style="height:710px;">
+<div class=" w3-section w3-clear w3-rest w3-show" style="height:705px;">
+<br>
+<div><h1 class="w3-container w3-center w3-xxlarge w3-auto w3-margin-top w3-section ">Latest News</h1></div>
+		<div class="w3-container w3-clear w3-margin w3-rest w3-padding">
+	<div class="w3-container  w3-animate-right w3-auto w3-card w3-row news  w3-section" style="height:505px" >
+		<img class="w3-container  w3-animate-right w3-image w3-section  w3-col l7  m12 w3-padding"   src="img/bb2.jpg" > 
+			<h5 class="w3-container w3-card w3-section w3-animate-left w3-border  w3-border-indigo w3-justify l5 w3-col  m12 w3-padding">Bennu will pass 0.005 au (750,000 km; 460,000 mi) from Earth on 23 September 2060,%will be too dim to be seen with common binoculars.The close approach of 2060 causes divergence in the close approach of 2135.On 25 September 2135,the nominal approach distance is 0.002 au<span class="w3-hide-small"> (300,000 km; 190,000 mi) from Earth, but Bennu could pass as close as 0.0007 au (100,000 km;). There is no chance of an Earth impact in 2135.[68][11] The 2135 approach will create many lines of variations and Bennu may pass through a gravitational keyhole during the 2135 passage which could create an impact scenario at a future encounter. The keyholes are all less than 55 km wide.On 25 September 2175, there is a 1 in 24,000 chance of an Earth impact,[11] but the nominal 2175 approach is in February 2175 at a distance of roughly 15,000,000 km;</span> </h5>
+		<h4 class=" w3-rest  w3-container w3-section w3-padding w3-padding-top w3-margin-top w3-justify w3-display-bottomleft w3-col m12 w3-clear w3-hide-medium w3-hide-small" style="width:650px; height:135px">The orbit of Bennu is intrinsically dynamically unstable, as are those of all NEOs.Lauretta et al. reported in 2015 their results of a computer simulation, concluding that it is more likely that 101955 Bennu will be destroyed by some other cause.</h4>
+	</div>
+	</div>
+		<div class="w3-container w3-clear w3-margin w3-rest w3-padding">
+	<div class="w3-container w3-animate-right w3-card  w3-auto w3-row news w3-section" style="height:505px" >
+		<img class=" w3-animate-right w3-image w3-margin w3-section  w3-col l4 m10 " src="img/bb3.gif"> 
+		<img class="w3-container w3-animate-right w3-margin w3-image w3-hide-medium w3-section w3-hide-small w3-col   m12" src="img/bb4.gif" style="width:25%" >
+			<h4 class=" w3-container w3-animate-left w3-justify  w3-col l4 m12 w3-mobile w3-large w3-hide-medium "  >An asteroid with a diameter of 500m can be expected to impact Earth about every 130,000 years.A dynamical study by Andrea & collaborators predicted Earth impacts by Bennu between 2169 & 2199.Astrometric observations between 1999 and 2013 have demonstrated that Bennu is influenced by the Yarkovsky effect. </h4>
+			<h4 class="w3-container w3-justify w3-padding w3-animate-right  w3-border w3-border-indigo w3-col l12  m12 "> The cumulative probability of impact is dependent on physical properties of Bennu that were poorly known at the time, but was found to not exceed 0.071% for all eight encounters.The authors recognized that an accurate assessment of 1955 Bennu's probability of Earth impact would require a detailed shape model and additional observations to determine the magnitude and direction of the Yarkovsky effect.The publication of the shape model made possible an improved estimate of the Yarkovsky acceleration and a revise d assessment of the impact probability.</h4>
+	</div>	
+	</div>	
+	<div class="w3-container w3-clear w3-rest w3-margin w3-padding">
+		<div	class="w3-container w3-display-container w3-row w3-auto w3-card w3-animate-left news w3-center w3-section" style="height:505px" >
+		<img class="w3-container w3-animate-right w3-col l6 m12 w3-padding w3-half"  src="img/bb1.jpg" >
+			 <h4 class="w3-container w3-show w3-margin-top w3-animate-left w3-card w3-border w3-round-large  w3-padding  w3-border-indigo w3-justify w3-col l6 m12  w3-mobile ">Bennu was discovered on 11 September 1999 during a Near-Earth asteroid survey by the Lincoln  Asteroid Research.The asteroid was given the provisional designation 1999 RQ36 & classified a near-Earth asteroid.<span class="w3-hide-small"> Bennu approached close to Earth and it was observed extensively  by the Arecibo Observatory and the Goldstone Deep Space Network using radar imaging as Bennu closely approached Earth on 23 September 1999.Bennu is the target of the OSIRIS-REx mission which is intended to return samples to Earth in 2023 for further study.<span class="w3-hide-small">it will map out Bennu's surface in detail and orbit the asteroid to calculate its mass.Astrometric observations between 1999 and 2013 have demonstrated that 101955 Bennu is influenced by the Yarkovsky effect.<span></h4>
+			 <h4 class="w3-container w3-display-bottomleft w3-hide-small w3-hide-medium w3-margin-bottom w3-margin-left w3-card w3-border  w3-border-indigo w3-justify  w3-col l4  m12 w3-padding " style=" width:47%;" > There is a well-defined ridge along the equator of Bennu. The presence of this ridge suggests that fine-grained regolith particles have accumulated in this area, possibly because of its low gravity and fast rotation.it has shown that Bennu is rotating faster over time.</h4>
+		</div>
+	</div>
+  </div>
+</div>
+	<br>
+	<div class="w3-container  w3-section w3-auto w3-content w3-mobile w3-padding">
+	<br>
+			<h1 class="w3-section w3-xxlarge w3-center">What can we learn from Asteroids ? </h1>
+			<br>
+			<div class=" w3-jumbo w3-auto w3-center" ><i class="  w3-jumbo w3-margin fas fa-meteor"></i></div><h4 class="w3-justify w3-mobile w3-container w3-padding  w3-mobile w3-panel ">Since asteroids formed at the same time as other objects in our solar system, these space rocks can give scientists lots of information about the history of planets and the sun. Scientists can learn about asteroids by studying meteorites: tiny bits of asteroids that have flown through our atmosphere and landed on Earth’s surface.</h4>	
+			<div class=" w3-jumbo w3-auto w3-center" ><i class=" w3-jumbo w3-margin  fas fa-globe-americas"></i></div><h4 class="w3-justify w3-mobile w3-container w3-padding  w3-mobile w3-panel ">Several NASA space missions have also flown by and observed asteroids. The NEAR Shoemaker spacecraft landed on Eros, an asteroid near Earth, in 2001. Then, the Dawn spacecraft traveled to the asteroid belt in 2011 to orbit and study the second largest object there, Vesta. Vesta is so large it's like a small planet. In 2012 Dawn left Vesta and went into orbit around the largest object in the asteroid belt, dwarf planet Ceres.</h4>
+			<div class=" w3-jumbo w3-auto w3-center" ><i class=" w3-jumbo w3-margin fas fa-user-astronaut"></i></div><h4 class="w3-justify w3-mobile w3-container w3-padding  w3-mobile w3-panel ">In 2016, NASA launched the OSIRIS-REx spacecraft to study an asteroid near Earth named Bennu and bring a sample of the asteroid back to Earth! In 2018, OSIRIS-REx went into orbit around Bennu. Bennu is the smallest world ever to be orbited by spacecraft. OSIRIS-REx will spend two years studying Bennu’s surface, looking for the best place to take a sample.</h4>
+	</div>
+<br>
+<!-- progress bar -->
+<div   class="w3-row class w3-container moveone(); movetwo(); movethree(); movefour();movefive()" onmouseover="moveone(); movetwo(); movethree(); movefour();movefive()"     style= " height:550px;width:100%;">
+<div class=" w3-container "><br>
+<br>
+<h1 class="w3-text-white w3-center    " >Which is the risky Asteroids ?</h1>
+<br>
+<br>
+<br>
+<div class="w3-container ">
+  <h2  class="w3-white w3-center  w3-col  l1 m2 s4    "  >  Braille </h2><br>
+  <div class="w3-white  w3-round-xlarge" style=" cursor:pointer;"  >
+    <aside   id="one" class="w3-indigo w3-round-xlarge w3-center" style=" cursor:pointer; height:20px;width:0%"></aside>
+  </div>
+  </div>
+<div class="w3-container">
+  <h2  class="w3-white  w3-center    w3-col  l1 m2 s4   "  >Ceres</h2><br>
+  <div class="w3-white w3-round-xlarge" style=" cursor:pointer;" >
+    <aside id="two" class="w3-indigo  w3-round-xlarge w3-center" style=" cursor:pointer; height:20px;width:0"></aside>
+  </div>
+</div> 
+<div class="w3-container">
+  <h3  class="w3-white  w3-center    w3-col  l1 m2 s4   "  > Victoria</h3><br>
+  <div class="w3-white w3-round-xlarge" style=" cursor:pointer;">
+    <aside id="three" class="w3-indigo  w3-round-xlarge w3-center" style=" cursor:pointer; height:20px;width:0"></aside>
+  </div>
+</div>
+<div class="w3-container">
+  <h2  class="w3-white  w3-center    w3-col  l1 m2 s4   "  > Pallas </h2><br>
+  <div class="w3-white w3-round-xlarge" style=" cursor:pointer;">
+    <aside id="four" class="w3-indigo  w3-round-xlarge w3-center" style="cursor:pointer; height:20px;width:0"></aside>
+  </div>
+</div>
+<div class="w3-container ">
+  <h2    class="w3-white w3-center  w3-col  l1 m2 s4   "  >Bennu</h2><br>
+  <aside class="w3-white w3-round-xlarge" style=" cursor:pointer;">
+    <aside id="five" class="w3-indigo  w3-round-xlarge w3-center" style=" cursor:pointer; height:20px;width:0"></aside>
+  </div>
+  </div>
+  <br>
+<br>
+<br>
+</div>      
+<br>
+<div class="w3-row  w3-clear  w3-white w3-border-indigo w3-block w3-border-top w3-border-bottom  w3-border-top">
+
+	<div  class=" w3-half w3-col   w3-padding m12 l6  w3-margin-top" style="overflow:hidden">
+			<img class="my  w3-mobile w3-margin-top w3-image" src="img/b1.jpg" >
+			<img class="my  w3-mobile w3-margin-top w3-image" src="img/b2.jpg" >
+			<img class="my  w3-mobile w3-margin-top w3-image" src="img/b3.jpg" >
+		</div>
+		<div class="w3-container   w3-clear  w3-col l6 m12 w3-padding w3-half">
+			<h1>Where did asteroids come from ? </h1>
+			<h3 class="w3-justify ">Asteroids are left over from the formation of our solar system. Our solar system began about 4.6 billion years ago when a big cloud of gas and dust collapsed. When this happened, most of the material fell to the center of the cloud and formed the sun.</h3>
+			<h3 class="w3-justify w3-margin-bottom">Some of the condensing dust in the cloud became planets. The objects in the asteroid belt never had the chance to be incorporated into planets. They are leftovers from that time long ago when planets formed.</h3>
+		</div>
+	</div>
+</div>
+<div>
+ <!-- categories -->
+<div id="cate" class="w3-row w3-white  w3-block  ">
+<div class="w3-container w3-margin-top  w3-white">
+  <h1 class="w3-container w3-center w3-margin-top w3-section " >Asteroids Categories</h1>
+  <div class="w3-row-padding w3-section">
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image w3-center w3-margin"  src="img/a1.jpg" style="width:90%">
+      <h3 class="w3-container w3-margin-bottom w3-center" >Smaller Asteroids</h3> 
+	</div>
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image w3-center w3-margin"  src="img/a2.jpg" style="width:90%">
+      <h3 class="w3-container w3-margin-bottom w3-center" >Fire Asteroid</h3> 
+	</div>
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image w3-center w3-margin"  src="img/a3.jpg" style="width:92% ">
+      <h3 class="w3-container w3-margin-bottom w3-center" >Single Asteroid</h3> 
+	</div>
+  </div>
+  <div class="w3-row-padding   w3-section">
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image  w3-center w3-margin" src="img/a4.jpg" style="width:90%">
+      <h3 class="w3-container w3-margin-bottom w3-center" >largest Asteroid</h3> 
+	</div>
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image w3-center w3-margin"  src="img/a5.jpg" style="width:90%">
+      <h3 class="w3-container w3-margin-bottom w3-center" >Line Asteroids</h3> 
+	</div>
+	<div class="w3-third   w3-section w3-card">
+      <img class="w3-padding w3-image w3-center w3-margin"  src="img/a6.jpg" style="width:90%">
+      <h3 class="w3-container w3-margin-bottom w3-center" >Powerful Asteroid</h3> 
+	</div>
+  </div>
+</div>	
+<!-- Our Cost Partners -->
+<div class="w3-row-padding  w3-rest w3-clear  w3-margin-top ">
+<h1 class=" w3-xxxlarge w3-center  w3-rest w3-clear   w3-col l12 m12  w3-mobile ">Our Cost Partners</h1>
+
+<div class="w3-row-padding w3-section w3-margin-top ">
+</div>
+	<div class="w3-third  w3-section w3-padding w3-container "><img class=" w3-image"  src="./img/sam.png" style="width:95%; "></div>
+    <div class="w3-third  w3-padding w3-container "><img class=" w3-image" src="./img/mic.jpg" style="width:220%"></div>
+	<div class="w3-third  w3-section  w3-padding-left w3-hide-small  w3-container "><img class=" w3-image w3-margin-left" src="./img/hp.png" style="width:75%; "></div>
+
+</div>
+ <div class="w3-row-padding ">
+	<div class="w3-third   w3-padding w3-container"><img class=" w3-image" src="./img/ver.png" style="width:86%"></div>
+    <div class="w3-third   w3-section w3-padding w3-container "><img class=" w3-image" src="./img/yoo.png" style="width:89%"></div>
+    <div class="w3-third   w3-section w3-hide-small w3-padding w3-container "><img class=" w3-image" src="./img/go.png" style="width:100%;">
+   </div>
+</div>
+</div>
+
+<!-- about us -->
+<section id="about" class="w3-row   w3-white w3-border-indigo w3-block w3-border-bottom " style=".myShishir {display:none}">
+<section class="w3-container  w3-section " >
+ 
+
+  <section class=" w3-black w3-section  w3-col w3-padding w3-display-container l12 m12 w3-image w3-mobile"  >
+  <header class="w3-container w3-rest w3-clear w3-display-container  w3-mobile w3-white">
+       <h1 class="w3-container  w3-rest w3-clear  w3-mobile w3-center">About Us</h1>
+    </header>
+	<br>
+	<div class="myShishir" class="w3-container w3-round-xxlarge w3-rest w3-clear  w3-mobile w3-col l12 m10 w3-display-middle w3-mobile"  >
+    
+	
+    <div   class="w3-black  w3-col w3-mobile w3-padding-left w3-margin-left"  >
+   <div class="w3-container w3-col w3-mobile l4 m6  w3-black w3-mobile"  >
+      <img class="w3-container  w3-mobile w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-image w3-circle w3-margin-right" src="./img/r.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container w3-mobile w3-mobile  w3-col l7 m5 w3-image w3-center w3-padding"  style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Nazmul Hasan Ronee </h2> 
+	 <h2>CEO at Rn-Galaxy.</h2><br>
+	
+<button onclick="myFunction('yeh')" class="w3-btn w3-mobile w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge  w3-black w3-center-align">See More Details</button>
+<div id="yeh" class="w3-container  w3-mobile w3-animate-right w3-hide">
+  <h3 class=" ">Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-mobile w3-animate-zoom" >
+    <a href="https://twitter.com/Ronee_hasan07" > <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/ronee.Hasan" > <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/hasannazmul677/" > <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+    
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/a.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">ABU BAKKAR SIDDIKI</h2> 
+	 <h2>Junior ins. at Rn-Galaxy.</h2><br>
+	
+<button onclick="myFunction('yeh2')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh2"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://www.facebook.com/touchy0/"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/touchy0/"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/abu-bakkar-siddiki/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+	
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+   
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/s.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Sani Miah </h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh3')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh3"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/sani.mia.coder/"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/sani-mia-011b7818a/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+	
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/ra.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Rafi </h2> 
+	 <h2>Junior instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh4')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh4"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/profile.php?id=100004539706509"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/ab-rafi-50b848196/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>	
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+    
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/h.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Ashadudjaman-Azad </h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh5')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh5"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/md.azadhosen.169"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/ashadudjaman-azad-7593aa195/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/y.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">MD-Yousuf </h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh6')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh6"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/Broken1565"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/md-yousuf-20059a195/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+		
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/sh.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Shahanaz-Parvin </h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh7')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh7"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/profile.php?id=100006366345425"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/shahanaz-parvin-974491193/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+    
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/ro.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Robin-Rayhan</h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh8')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh8"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/robin.rayhan.9250"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/robin-coder-a762311a4/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+		
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+	
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/sha.jpg" alt="Avatar" style="width:90%">
+    </div>
+	
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Mahbubhasan-Shaon</h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+	
+<button  onclick="myFunction('yeh9')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh9"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/mahbubhasan.shaon"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.facebook.com/mahbubhasan.shaon"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>	
+		
+	<div class="myShishir" class="w3-container  w3-col l12 m10 w3-display-middle w3-mobile"  >
+    <div   class="w3-black  w3-col w3-padding-left w3-margin-left  ">
+   <div class="w3-container w3-col l4 m6  w3-black w3-mobile">
+      <img class="w3-container w3-image w3-border w3-border-white w3-hover-border-indigo w3-mobile w3-margin w3-right w3-padding w3-circle w3-margin-right" src="./img/ras.jpg" alt="Avatar" style="width:90%">
+    </div>
+    <div class="w3-container  w3-mobile  w3-col l7 m5 w3-center w3-padding" style="height:500px" >
+	 <h2 class="w3-container w3-mobile w3-col l12 m6 w3-center w3-xxxlarge">Md-Shahidul-Islam</h2> 
+	 <h2>Jr instractor at Rn-Galaxy.</h2><br>
+<button  onclick="myFunction('yeh10')" class="w3-btn w3-btn-indigo w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">See More Details</button>
+<div id="yeh10"  class="w3-container w3-animate-right w3-hide">
+  <h3>Marketing and searching.Seeking a new job and new opportunities.</h3>
+  <aside class="w3-container w3-animate-zoom">
+    <a href="https://twitter.com"> <i class="fab fa-twitter-square" style="font-size:55px;margin-right:20px;" ></i> </a>
+ <a href="https://www.facebook.com/profile.php?id=100025740282559"> <i class="fab fa-facebook" style="font-size:60px;;margin-right:20px;"></i></a>
+   <a href="https://www.linkedin.com/in/md-shahidul-islam-189428181/"> <i class="fab fa-linkedin" style="font-size:60px;;margin-right:5px;"  ></i></a>
+  </aside>
+</div>
+  </div>
+	</div>
+		</div>
+</section>
+<div class="w3-center">
+ 
+    <button class="w3-button w3-border w3-section w3-round-large w3-light-grey" onclick="plusDivs(-1)">&laquo;</button>
+    
+   <button class=" khan w3-button" onclick="currentDiv(1)">1</button> 
+   <button class=" khan w3-button" onclick="currentDiv(2)">2</button> 
+   <button class=" khan w3-button" onclick="currentDiv(3)">3</button> 
+   <button class=" khan w3-button" onclick="currentDiv(3)">4</button> 
+   <button class=" khan w3-button" onclick="currentDiv(3)">5</button> 
+   <button class=" khan w3-hide-small w3-button" onclick="currentDiv(3)">6</button> 
+   <button class=" khan w3-hide-small w3-button" onclick="currentDiv(3)">7</button> 
+   <button class=" khan w3-hide-small w3-button" onclick="currentDiv(3)">8</button> 
+   <button class=" khan w3-hide-small w3-button" onclick="currentDiv(3)">9</button> 
+   <button class=" khan w3-hide-small w3-button" onclick="currentDiv(3)">10</button> 
+   
+   <button class="w3-button w3-light-grey" onclick="plusDivs(1)">&raquo;</button>
+</div>
+  </section>
+	</section>
+	
+<div id="contact" class="w3-black w3-container  " >
+<br>
+<h1 class="w3-text-white w3-center    " >Contacts & Privacy</h1>
+	<div class="w3-row  w3-black  w3-block  ">
+
+		<div  class=" w3-half w3-col w3-clear w3-rest  w3-padding m12 l6  w3-margin-top">
+			
+			<aside class="w3-container w3-half">
+<h3 >Terms & Condition</h3>
+<h4 class=" w3-justify" >You can use our services in a variety of ways to manage your privacy.if you want to create and manage content such as emails and pic or to see more relevant search results. you can adjust your privacy settings to control what we collect and how your information is used.</h4>
+</aside>
+<aside class="w3-container w3-half ">
+<button onclick="myFunction('yeh52')" class="w3-button w3-block w3-center-align"><i class=" w3-xxlarge  fas fa-tty"></i><h3>Contact Info</h3></button>
+
+<div id="yeh52" class="w3-hide w3-show"> 
+  <ul class="w3-ul">
+    <li></li>
+    <li>Phone:01712469240</li>
+    <li>City:Tangail</li>
+    <li>Village:Natiapara</li>
+  </ul>
+</div>
+<button onclick="myFunction('yeh53')" class="w3-button w3-block w3-center-align"><i class="  w3-xxlarge fas fa-tools"><h3>Manage Sites</h3></i></button>
+
+<div id="yeh53" class="w3-hide">
+  <ul>
+    <li>Light mood</li>
+    <li>Night mood</li>
+  </ul>
+</div>
+</aside>
+		</div>
+			<div class="w3-container   w2-clear w3-rest  w3-col l6 m12 w3-padding w3-half" style="height:400px;">
+
+<div class="w3-container w3-clear w3-rest " style="width:60%">
+<button     onclick="myFunction('yeh50')" class="w2-clear w3-rest w3-btn w3-auto w3-btn-indigo w3-right w3-border w3-hover-border-indigo w3-deep-purple w3-round-xxlarge w3-black w3-center-align">Sign Up</button>
+</div>
+<div id="yeh50"  class="w3-container w2-clear w3-rest w3-animate-right w3-hide" style="height:400px;">
+
+<form  class="w3-container w3-clear w3-rest w3-card-4 w3-black w3-text-white w3-margin" >
+<h2 class="w3-center">Fill up forms with details</h2>
+ 
+<div class="w3-row w3-auto w2-clear w3-rest w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-center w3-animate-input  w3-animate-top w3-border" checked name="full name" type="text" placeholder="Full Name: Required" style="width:66%" >
+    </div>
+</div>
+
+<div class="w3-row w3-auto w2-clear w3-rest w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-center w3-animate-input w3-animate-top w3-border" name="email" checked type="text" placeholder="Email:Required" style="width:66%">
+    </div>
+</div>
+
+<div class="w3-row w3-auto w2-clear w3-rest w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-center w3-animate-input w3-animate-top w3-border w3-border-white w3-hover-border-indigo " name="phone" checked type="text" placeholder="Phone:Optional" style="width:66%">
+    </div>
+</div>
+
+<div onclick="myFunction('yeh50')"   class="w3-button w3-block w3-auto w2-clear w3-rest  w3-animate-top w3-section w3-white w3-hover-black w3-border-xlarge w3-border w3-ripple w3-hover-border-white  w3-border-indigo w3-padding" style="width:40%">Send</div>
+
+</form>
+</div>
+	
+<div id="yeh51"   class="w2-clear w3-show  w3-rest" style="overflow:hidden;">
+<h3 class="w2-clear w3-justify w3-rest">Our Privacy & Policy</h3>
+<h4 class="w2-clear w3-justify w3-rest">A Privacy Policy Platform That Ensures Your Compliant with GDPR, CCPA & Global Privacy Law. Easy To Use Solution For All Your Privacy Policy Needs Tailored Towards Small Businesses. Free Trial. Request A Demo. Flexible Pricing Options. Intuitive User Interface. Multilingual Capabilities. Powerful Training. </h4>
+<h4 class="w2-clear w3-hide-small w3-justify w3-rest">We use your information to deliver our services, such as processing the terms you search for in order to return results or helping you share content by suggesting recipients from your contacts.</h4>
+</div>
+	</div>
+	</div>
+</div>
+
+
+	
+	
+	
+	<footer class="w3-black w3-mobile w3-center w3-auto w3-container  w3-margin-top">
+	<h3>&copy copyright by abu-bakkar-siddiki</h3>
+	</footer>
+	<script src="js/news.js"></script>
+	<script src="js/n1.js"></script>
+	<script src="js/n2.js"></script>
+	<script src="js/n3.js"></script>
+	<script src="js/n4.js"></script>
+	<script src="js/n5.js"></script>
+	<script src="js/Accordions.js"></script>
+	<script src="js/Accordions1.js"></script>
+	<script src="js/Sliders.js"></script>	
+	<script src="js/about.js"></script>	
+	<script src="js/main.js"></script>	
+	</body>
+</html>
